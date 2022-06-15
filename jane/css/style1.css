@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*
+{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+body
+{
+   height: 100vh;
+   width: 100vw;
+   background-image: url("../images/background\ image.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   font-family: 'Source Sans Pro', sans-serif;
+
+}
+#mainblock
+{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#mainblockcontainer
+{
+    height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#mainblock header img
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    padding: 10px 0px;
+    z-index: 1;
+    border: 20px solid #fff;
+  
+}
+#mainblock main h1 
+{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    
+}
+#mainblock main p{
+    font-size: 19px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#mainblock footer 
+{
+    height: 100px;
+    width: 200px;
+    /* background-color: aqua; */
+    
+
+}
+#mainblock footer aside
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    
+}
+#mainblock footer aside div{
+    height: 50px;
+    width: 50px;
+    border: 1px solid crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition:ease all 0.7s;
+    font-size: 25px;
+   
+
+}
+#mainblock footer aside div:hover
+{
+    transform: rotateZ(360deg);
+    color: rgb(241, 7, 104);
+}
+#mainblock footer aside div:hover i
+{
+    transform: rotateZ(360deg);
+  
+}
+#line
+{
+    width: 100%;
+    
+    border: 1px solid #aaa;
+    position: absolute;
+    top:80px;
+    /* z-index: 1; */
+}
